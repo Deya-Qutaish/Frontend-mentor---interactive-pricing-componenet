@@ -25,29 +25,33 @@
       <h1>
         Simple, traffic-based pricing
         <span class="dsc">
-          Sign-up for our 30-day trial. No credit card required
+          <span> Sign-up for our 30-day trial. </span>
+          <span> No credit card required </span>
         </span>
       </h1>
     </header>
     <section>
       <div class="top">
-        <h4>100k PAGEVIEWS</h4>
+        <h4 class="views">100K PAGEVIEWS</h4>
         <h4 class="price-per-time">
           <span class="price">$16.00</span>
           <span class="time"> /month</span>
         </h4>
       </div>
-      <div>
-        <input class="range" type="range" min="1" max="12" />
+      <div id="slider-container">
+        <input class="range" type="range" min="1" max="5" step="1" />
       </div>
       <div class="billing-container">
-        <p>Monthly Billing</p>
+        <p class="month">Monthly Billing</p>
         <label class="switch">
           <input class="check" type="checkbox" value="false" />
           <span class="slider"></span>
         </label>
-        <p>Yearly Billing</p>
-        <p class="discount">25% discount</p>
+        <p class="year">Yearly Billing</p>
+        <p class="discount">
+          25%
+          <span class="discount-hidden">discount</span>
+        </p>
       </div>
       <div class="lower">
         <p class="perk-el">
